@@ -258,7 +258,7 @@
         <div class="card-body">
           
           <div class="form-section">
-            <div class="section-title">01. Dados Biométricos</div>
+            <div class="section-title">01. Dados Pessoais</div>
             <div class="field-group">
               <label>Data de Nascimento</label>
               <input type="date" id="dob" onchange="run()">
@@ -280,7 +280,7 @@
             <div class="field-group">
               <label>Aplicações Financeiras (R$)</label>
               <input type="text" id="finAssets" class="currency" placeholder="0,00" oninput="run()">
-              <div class="hint">Recursos com liquidez imediata que compõem sua reserva de capital.</div>
+              <div class="hint">Recursos com liquidez que compõem sua reserva de capital em caso de invalidez.</div>
             </div>
           </div>
 
@@ -289,7 +289,7 @@
             <div class="field-group">
               <label>Seguro de Invalidez Vigente (R$)</label>
               <input type="text" id="curDisability" class="currency" placeholder="0,00" oninput="run()">
-              <div class="hint">Capital segurado em apólices ativas de proteção por invalidez.</div>
+              <div class="hint">Capital segurado em apólices ativas de proteção por invalidez. Considerar o seguro de vida empresarial, se houver.</div>
             </div>
           </div>
         </div>
@@ -414,4 +414,5 @@
     }
   </script>
 </body>
+
 </html>
